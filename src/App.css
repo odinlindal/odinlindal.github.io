@@ -1,0 +1,126 @@
+#root {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.app-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 220px;
+    padding: 1rem;
+    background: #1e1e1e;
+    color: white;
+    overflow-y: auto;
+    border-right: 1px solid #444;
+    flex-shrink: 0;
+}
+
+.repo-button, .file-button {
+    width: 100%;
+    text-align: left;
+    border: 1px solid #555;
+    padding: 6px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    font-size: 13px;
+}
+
+.repo-button {
+    background: #2c2c2c;
+    color: white;
+}
+
+.file-button {
+    background: #f9f9f9;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+.repo-button:hover {
+    background: #3a3a3a;
+}
+
+.file-button:hover {
+    background: #e2e2e2;
+}
+
+.editor-area {
+    flex-grow: 1;
+    padding: 1rem 2rem 1rem 1rem; 
+    background-color: #121212;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    max-height: 1200px;
+}
+
+.editor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.run-button {
+    background-color: #00aa00;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.run-button:hover {
+    background-color: #009400;
+}
+
+.clear-button {
+    background-color: #333;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.clear-button:hover {
+    background-color: #444;
+}
+
+.console-output {
+    background-color: #1e1e1e;
+    color: #00ff00;
+    padding: 10px;
+    margin-top: 1rem;
+    border: 1px solid #444;
+    border-radius: 4px;
+    height: 200px;
+    overflow-y: auto;
+    font-family: monospace;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
