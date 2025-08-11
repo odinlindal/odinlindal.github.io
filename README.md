@@ -2,7 +2,7 @@
 
 This is my personal portfolio website, built with **React** and **Vite**, showcasing my projects, skills, and experiences in software engineering, embedded systems, and STEM education.  
 
-You can view it live here: **[odinlindal.github.io/odinlindal](https://odinlindal.github.io/odinlindal)**  
+You can view it live here: **[odinlindal.github.io](https://odinlindal.github.io)**  
 
 ---
 
