@@ -1,12 +1,21 @@
-# React + Vite
+# Odin Lindal – Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website, built with **React** and **Vite**, showcasing my projects, skills, and experiences in software engineering, embedded systems, and STEM education.  
 
-Currently, two official plugins are available:
+You can view it live here: **[odinlindal.github.io/odinlindal](https://odinlindal.github.io/odinlindal)**  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- Fully responsive, modern UI built with React.
+- Sections for projects, work experience, and technical skills.
+- Dynamic project data stored as structured arrays for easy editing.
+- Fast build times and optimized assets with Vite.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React, Vite
+- **Styling:** CSS
+- **Deployment:** GitHub Pages via `gh-pages`
+- **Other:** Axios, Monaco Editor, JSZip
