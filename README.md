@@ -26,4 +26,3 @@ You can view it live here: **[odinlindal.github.io](https://odinlindal.github.io
 
 ## 🔧 Notes
 - This repo serves the built site; some content (like the projects list) is fetched at runtime from GitHub.
-- If you change assets like the headshot, prefer adding them to `public/` (or importing from `src/assets/`) and rebuilding.
